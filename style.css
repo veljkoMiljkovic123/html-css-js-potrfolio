@@ -460,8 +460,8 @@ footer p {
   /* display:block */
 
   #profile {
-    height: 140vh;
-    margin-bottom: 0;
+    height: 90vh;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -478,31 +478,42 @@ footer p {
     height: fit-content;
   }
   section {
-    margin: 0 15%;
+    margin: 0 5%;
   }
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 56vw;
     justify-content: center;
+  }
+  .section__pic-container .img-logo {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .section__text {
+    align-self: center;
+    text-align: center;
+    margin-top: 50px; /* Prilagodi margin */
   }
 
   .about-containers {
-    margin-top: 0;
+    margin-top: 0px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   #contact,
   footer {
     height: 40vh;
   }
   #profile {
-    height: 140vh;
-    margin-bottom: 0;
+    height: 60vh;
+    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 130px;
+    gap: 0px;
   }
   article {
     font-size: 1rem;
@@ -529,7 +540,13 @@ footer p {
   /* menjao pisalo .logo:1.5rem */
   .img-logo {
     font-size: 1.5rem;
-    margin-block: 5rem;
+    margin-block: 3rem;
+  }
+  .section__pic-container .img-logo {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
   }
   .nav-links {
     flex-direction: column;
@@ -538,9 +555,11 @@ footer p {
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 50vw;
     justify-content: center;
   }
+
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
