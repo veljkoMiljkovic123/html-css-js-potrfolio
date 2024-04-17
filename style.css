@@ -149,6 +149,7 @@ section {
 
 .section-container {
   display: flex;
+ 
 }
 
 /* PROFILE SECTION */
@@ -270,11 +271,13 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
+  margin-top: 20px;
 }
 
 .about-pic {
@@ -478,7 +481,7 @@ footer p {
     height: fit-content;
   }
   section {
-    margin: 0 5%;
+    margin: 0 10%;
   }
 
   .section__pic-container {
@@ -510,10 +513,10 @@ footer p {
   }
   #profile {
     height: 60vh;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
   }
   article {
     font-size: 1rem;
