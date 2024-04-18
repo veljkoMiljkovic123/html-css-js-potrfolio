@@ -124,7 +124,6 @@ section {
 
 .section-container {
   display: flex;
-
 }
 
 /* PROFILE SECTION */
@@ -232,7 +231,6 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-
 }
 
 .about-containers,
@@ -490,6 +488,8 @@ footer p {
     height: 50vw;
     justify-content: center;
   }
+
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
